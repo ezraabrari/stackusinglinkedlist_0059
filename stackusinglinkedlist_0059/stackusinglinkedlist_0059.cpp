@@ -53,3 +53,7 @@ public:
 		return Top == NULL;
 	}
 };
+
+int main() {
+
+}
