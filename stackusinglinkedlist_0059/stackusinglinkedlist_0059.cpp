@@ -91,6 +91,8 @@ int main() {
 				cout << "stack is empty. no top value. " << endl;
 			}
 			break;
+		case 4:
+			
 		}
 	}
 
