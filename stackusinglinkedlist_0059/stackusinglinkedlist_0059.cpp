@@ -27,10 +27,15 @@ public:
 		cout << "Push Value : " << value << endl;
 		return value;
 	}
-};
-
-void pop() {
-	if (isEmpty()) {
-		cout << "stack is empty." << endl;
+	void pop() {
+		if (isEmpty()) {
+			cout << "stack is empty." << endl;
+		}
+		cout << "popped value : " << Top->data << endl;
+		Top = Top->next;
 	}
-}
+
+	void peek() {
+
+	}
+};
