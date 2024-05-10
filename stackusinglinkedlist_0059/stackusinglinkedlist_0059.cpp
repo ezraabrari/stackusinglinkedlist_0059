@@ -37,6 +37,9 @@ public:
 
 	void peek() {
 		if (Top == NULL) {
+			cout << "list is empty. " << endl;
+		}
+		else {
 
 		}
 	}
